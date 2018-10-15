@@ -3,6 +3,14 @@ package com.algoritmos;
 import java.util.Scanner;
 
 public class Ciclos {
+	static int a = 1;
+	int b = 2;
+	
+	public static int numero(int c)
+	{
+		c = a*c;
+		return 1;
+	}
 	
 	public int potencia(int base, int exponente)
 	{
@@ -79,4 +87,6 @@ public class Ciclos {
 		}
 		return cuadro;
 	}
+	
+	
 }
